@@ -1,0 +1,1287 @@
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil pada 2025-07-07 18:08:19
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hh","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hh
+    [total_harga] => 25000
+)
+
+Order_process dipanggil pada 2025-07-07 18:09:42
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hh","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hh
+    [total_harga] => 25000
+)
+
+User ID from session: 1
+Preparing to insert: UserID=1, Items=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hh, TotalHarga=25000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 18:10:52
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hh","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hh
+    [total_harga] => 25000
+)
+
+User ID from session: 1
+Preparing to insert: UserID=1, Items=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hh, TotalHarga=25000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 18:10:59
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hh","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hh
+    [total_harga] => 25000
+)
+
+User ID from session: 1
+Preparing to insert: UserID=1, Items=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hh, TotalHarga=25000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 18:11:15
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hh","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hh
+    [total_harga] => 25000
+)
+
+User ID from session: 1
+Preparing to insert: UserID=1, Items=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hh, TotalHarga=25000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 18:12:47
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hh","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hh
+    [total_harga] => 25000
+)
+
+User ID from session: 1
+Preparing to insert: UserID=1, Items=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hh, TotalHarga=25000
+Sewa ID created: 0
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil pada 2025-07-07 18:16:58
+Raw JSON Input: {
+  "nama_barang": "Jaket Gorpcore",
+  "durasi": 1,
+  "catatan": "ukuran 90",
+  "total_harga": 150000
+}
+Decoded Input: Array
+(
+    [nama_barang] => Jaket Gorpcore
+    [durasi] => 1
+    [catatan] => ukuran 90
+    [total_harga] => 150000
+)
+
+User ID from session: 1
+Data tidak lengkap atau tidak valid.
+Order_process dipanggil pada 2025-07-07 18:17:47
+Raw JSON Input: {
+       "user_id": "1",
+  "nama_barang": "Jaket Gorpcore",
+  "durasi": 1,
+  "catatan": "ukuran 90",
+  "total_harga": 150000
+}
+Decoded Input: Array
+(
+    [user_id] => 1
+    [nama_barang] => Jaket Gorpcore
+    [durasi] => 1
+    [catatan] => ukuran 90
+    [total_harga] => 150000
+)
+
+User ID from session: 1
+Data tidak lengkap atau tidak valid.
+Order_process dipanggil pada 2025-07-07 18:17:56
+Raw JSON Input:    "user_id": "1",
+    "items": [
+        {
+            "id": "item001",
+            "name": "Tenda Camping 4 Orang",
+            "price": 50000,
+            "quantity": 1
+        },
+Decoded Input: 
+User ID from session: 1
+Data tidak lengkap atau tidak valid.
+Order_process dipanggil pada 2025-07-07 18:18:12
+Raw JSON Input: 
+        {
+   "user_id": "1",
+    "items": [
+        {
+            "id": "item001",
+            "name": "Tenda Camping 4 Orang",
+            "price": 50000,
+            "quantity": 1
+        },
+        }
+Decoded Input: 
+User ID from session: 1
+Data tidak lengkap atau tidak valid.
+Order_process dipanggil pada 2025-07-07 18:18:33
+Raw JSON Input: 
+        {
+   "user_id": "1",
+    "items": [
+        {
+            "id": "item001",
+            "name": "Tenda Camping 4 Orang",
+            "price": 50000,
+            "quantity": 1
+        }
+    ]
+ }
+
+Decoded Input: Array
+(
+    [user_id] => 1
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => item001
+                    [name] => Tenda Camping 4 Orang
+                    [price] => 50000
+                    [quantity] => 1
+                )
+
+        )
+
+)
+
+User ID from session: 1
+Data tidak lengkap atau tidak valid.
+Order_process dipanggil pada 2025-07-07 18:18:44
+Raw JSON Input: {
+   "user_id": "1",
+    "items": [
+        {
+            "id": "item001",
+            "name": "Tenda Camping 4 Orang",
+            "price": 50000,
+            "quantity": 1
+        }
+    ]
+ }
+
+Decoded Input: Array
+(
+    [user_id] => 1
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => item001
+                    [name] => Tenda Camping 4 Orang
+                    [price] => 50000
+                    [quantity] => 1
+                )
+
+        )
+
+)
+
+User ID from session: 1
+Data tidak lengkap atau tidak valid.
+Order_process dipanggil pada 2025-07-07 18:19:22
+Raw JSON Input: {
+   "user_id": "1",
+    "items": [
+        {
+            "id": "item001",
+            "name": "Tenda Camping 4 Orang",
+            "price": 50000,
+            "quantity": 1
+        }
+    ],
+    "durasi": 3,
+    "catatan": "Perlu diantar ke alamat X.",
+    "total_harga": "Rp100.000,-"
+ }
+
+Decoded Input: Array
+(
+    [user_id] => 1
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => item001
+                    [name] => Tenda Camping 4 Orang
+                    [price] => 50000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 3
+    [catatan] => Perlu diantar ke alamat X.
+    [total_harga] => Rp100.000,-
+)
+
+User ID from session: 1
+Preparing to insert: UserID=1, Items=[{\"id\":\"item001\",\"name\":\"Tenda Camping 4 Orang\",\"price\":50000,\"quantity\":1}], Durasi=3, Catatan=Perlu diantar ke alamat X., TotalHarga=100000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 18:22:37
+Raw JSON Input: {
+   "user_id": "1",
+    "items": [
+        {
+            "id": "item001",
+            "name": "Tenda Camping 4 Orang",
+            "price": 50000,
+            "quantity": 1
+        }
+    ],
+    "durasi": 3,
+    "catatan": "Perlu diantar ke alamat X.",
+    "total_harga": "Rp100.000,-"
+ }
+
+Decoded Input: Array
+(
+    [user_id] => 1
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [id] => item001
+                    [name] => Tenda Camping 4 Orang
+                    [price] => 50000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 3
+    [catatan] => Perlu diantar ke alamat X.
+    [total_harga] => Rp100.000,-
+)
+
+User ID from session: 1
+Preparing to insert: UserID=1, Items=[{\"id\":\"item001\",\"name\":\"Tenda Camping 4 Orang\",\"price\":50000,\"quantity\":1}], Durasi=3, Catatan=Perlu diantar ke alamat X., TotalHarga=100000
+Sewa ID created: 0
+Order_process dipanggil
+Order_process dipanggil pada 2025-07-07 18:39:37
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"halo","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => halo
+    [total_harga] => Rp25.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=halo, TotalHarga=25000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 19:05:03
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"halo","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => halo
+    [total_harga] => Rp25.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=halo, TotalHarga=25000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 19:08:42
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"halo","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => halo
+    [total_harga] => Rp25.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=halo, TotalHarga=25000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 19:09:00
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":2}],"durasi":1,"catatan":"b","total_harga":"Rp50.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 2
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => b
+    [total_harga] => Rp50.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":2}], Durasi=1, Catatan=b, TotalHarga=50000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 19:10:59
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":2}],"durasi":1,"catatan":"b","total_harga":"Rp50.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 2
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => b
+    [total_harga] => Rp50.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":2}], Durasi=1, Catatan=b, TotalHarga=50000
+Sewa ID created: 0
+Order_process dipanggil pada 2025-07-07 19:11:57
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":2}],"durasi":1,"catatan":"b","total_harga":"Rp50.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 2
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => b
+    [total_harga] => Rp50.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":2}], Durasi=1, Catatan=b, TotalHarga=50000
+Sewa ID created: 18
+Order_process dipanggil pada 2025-07-07 19:29:57
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hha","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hha
+    [total_harga] => Rp25.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hha, TotalHarga=25000
+Sewa ID created: 19
+Order_process dipanggil pada 2025-07-07 19:30:18
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hha","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hha
+    [total_harga] => Rp25.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hha, TotalHarga=25000
+Sewa ID created: 20
+Order_process dipanggil pada 2025-07-07 19:36:44
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Jaket Gorpcore","price":20000,"quantity":1}],"durasi":1,"catatan":"hh","total_harga":"Rp20.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Jaket Gorpcore
+                    [price] => 20000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hh
+    [total_harga] => Rp20.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Jaket Gorpcore\",\"price\":20000,\"quantity\":1}], Durasi=1, Catatan=hh, TotalHarga=20000
+Sewa ID created: 21
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Pria","price":25000,"quantity":1}],"durasi":1,"catatan":"jn","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Pria
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => jn
+    [total_harga] => Rp25.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Pria\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=jn, TotalHarga=25000
+Sewa ID created: 22
+Order_process dipanggil pada 2025-07-07 19:41:42
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Pria","price":25000,"quantity":1}],"durasi":1,"catatan":"kjkjkjk","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Pria
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => kjkjkjk
+    [total_harga] => Rp25.000,-
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Pria\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=kjkjkjk, TotalHarga=25000
+Sewa ID created: 23
+Order_process dipanggil pada 2025-07-07 19:50:56
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"halo","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => halo
+    [total_harga] => Rp25.000,-
+)
+
+User ID from input: guest
+Data for DB: UserID=guest, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=halo, TotalHarga=25000
+Sewa ID created: 24
+Order_process dipanggil pada 2025-07-07 19:52:50
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hah","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hah
+    [total_harga] => Rp25.000,-
+)
+
+User ID from input: guest
+Data for DB: UserID=guest, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hah, TotalHarga=25000
+Sewa ID created: 25
+Order_process dipanggil pada 2025-07-07 19:54:04
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Jaket Gorpcore","price":20000,"quantity":1}],"durasi":1,"catatan":"test test","total_harga":20000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Jaket Gorpcore
+                    [price] => 20000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => test test
+    [total_harga] => 20000
+)
+
+User ID from input: guest
+Data for DB: UserID=guest, ItemsJSON=[{\"name\":\"Jaket Gorpcore\",\"price\":20000,\"quantity\":1}], Durasi=1, Catatan=test test, TotalHarga=20000
+Sewa ID created: 26
+Order_process dipanggil pada 2025-07-07 19:57:34
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"halo","total_harga":"Rp25.000,-"}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => halo
+    [total_harga] => Rp25.000,-
+)
+
+User ID from input: guest
+Data for DB: UserID=guest, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=halo, TotalHarga=25000
+Sewa ID created: 27
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil
+Order_process dipanggil pada 2025-07-07 20:04:39
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"ukuran 30","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => ukuran 30
+    [total_harga] => 25000
+)
+
+User ID from session: 1
+Data for DB: UserID=1, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=ukuran 30, TotalHarga=25000
+Sewa ID created: 29
+Order_process dipanggil pada 2025-07-07 20:06:42
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Jaket Gorpcore","price":20000,"quantity":1}],"durasi":1,"catatan":"ukuran 23","total_harga":20000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Jaket Gorpcore
+                    [price] => 20000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => ukuran 23
+    [total_harga] => 20000
+)
+
+User ID from input: guest
+Data for DB: UserID=guest, ItemsJSON=[{\"name\":\"Jaket Gorpcore\",\"price\":20000,\"quantity\":1}], Durasi=1, Catatan=ukuran 23, TotalHarga=20000
+Sewa ID created: 30
+Order_process dipanggil pada 2025-07-07 20:07:38
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Flysheet","price":15000,"quantity":1}],"durasi":1,"catatan":"uhuy","total_harga":15000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Flysheet
+                    [price] => 15000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => uhuy
+    [total_harga] => 15000
+)
+
+User ID from input: guest
+Data for DB: UserID=guest, ItemsJSON=[{\"name\":\"Flysheet\",\"price\":15000,\"quantity\":1}], Durasi=1, Catatan=uhuy, TotalHarga=15000
+Sewa ID created: 31
+Order_process dipanggil pada 2025-07-07 21:56:59
+Raw JSON Input: {"user_id":"guest","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hh0","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hh0
+    [total_harga] => 25000
+)
+
+User ID from session: 0
+Data for DB: UserID=0, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=hh0, TotalHarga=25000
+Sewa ID created: 32
+Order_process dipanggil pada 2025-07-07 22:02:59
+Raw JSON Input: {"user_id":"2","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"halo 2","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => halo 2
+    [total_harga] => 25000
+)
+
+User ID from session: 2
+Data for DB: UserID=2, ItemsJSON=[{\"name\":\"Sepatu Outdoor Wanita\",\"price\":25000,\"quantity\":1}], Durasi=1, Catatan=halo 2, TotalHarga=25000
+Sewa ID created: 33
+Order_process dipanggil pada 2025-07-07 22:10:31
+Raw JSON Input: {"user_id":"2","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"hii","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => hii
+    [total_harga] => 25000
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 34
+Order_process dipanggil pada 2025-07-07 22:12:36
+Raw JSON Input: {"user_id":"2","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"xixu","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => xixu
+    [total_harga] => 25000
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 35
+Order_process dipanggil pada 2025-07-07 22:14:12
+Raw JSON Input: {"user_id":"2","items":[{"name":"Sepatu Outdoor Wanita","price":25000,"quantity":1}],"durasi":1,"catatan":"xixu","total_harga":25000}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Sepatu Outdoor Wanita
+                    [price] => 25000
+                    [quantity] => 1
+                )
+
+        )
+
+    [durasi] => 1
+    [catatan] => xixu
+    [total_harga] => 25000
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 36
+Order_process dipanggil pada 2025-07-07 22:14:39
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"jjh","total_harga":25000,"items":[{"quantity":1,"harga_satuan":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => jjh
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [quantity] => 1
+                    [harga_satuan] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 37
+Order_process dipanggil pada 2025-07-07 22:16:06
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"haha","total_harga":25000,"items":[{"quantity":1,"harga_satuan":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => haha
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [quantity] => 1
+                    [harga_satuan] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 38
+Order_process dipanggil pada 2025-07-07 22:17:36
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"haha","total_harga":25000,"items":[{"quantity":1,"harga_satuan":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => haha
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [quantity] => 1
+                    [harga_satuan] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 39
+Order_process dipanggil pada 2025-07-07 22:18:16
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"h","total_harga":25000,"items":[{"quantity":1,"harga_satuan":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => h
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [quantity] => 1
+                    [harga_satuan] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 40
+Order_process dipanggil pada 2025-07-07 22:18:59
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"hah","total_harga":25000,"items":[{"quantity":1,"harga_satuan":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => hah
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [quantity] => 1
+                    [harga_satuan] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 41
+Order_process dipanggil pada 2025-07-07 22:21:13
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"jhj","total_harga":25000,"items":[{"quantity":1,"harga":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => jhj
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [quantity] => 1
+                    [harga] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 42
+Order_process dipanggil pada 2025-07-07 22:24:57
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"h","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Wanita","jumlah":1,"harga":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => h
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Wanita
+                    [jumlah] => 1
+                    [harga] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 43
+Order_process dipanggil pada 2025-07-07 22:26:23
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"hiju","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Wanita","jumlah":1,"harga":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => hiju
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Wanita
+                    [jumlah] => 1
+                    [harga] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 44
+Order_process dipanggil pada 2025-07-07 22:30:16
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"j","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Wanita","quantity":1,"harga":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => j
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Wanita
+                    [quantity] => 1
+                    [harga] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 45
+Order_process dipanggil pada 2025-07-07 22:32:31
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"j","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Wanita","quantity":1,"harga":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => j
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Wanita
+                    [quantity] => 1
+                    [harga] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 46
+Order_process dipanggil pada 2025-07-07 22:35:24
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"ini test","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Wanita","quantity":1,"harga":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => ini test
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Wanita
+                    [quantity] => 1
+                    [harga] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 47
+Order_process dipanggil pada 2025-07-07 22:39:30
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"jabja","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Wanita","quantity":1,"harga":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => jabja
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Wanita
+                    [quantity] => 1
+                    [harga] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 48
+Order_process dipanggil pada 2025-07-07 22:48:41
+Raw JSON Input: {"user_id":"2","durasi":1,"catatan":"hh","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Pria","quantity":1,"harga":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 2
+    [durasi] => 1
+    [catatan] => hh
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Pria
+                    [quantity] => 1
+                    [harga] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 2
+Berhasil insert ke sewa, sewa_id: 49
+Order_process dipanggil pada 2025-07-08 00:54:21
+Raw JSON Input: {"user_id":"guest","durasi":1,"catatan":"ukuran 42, kembali tanggal 9 Juli 2025","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Pria","quantity":1,"harga":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => guest
+    [durasi] => 1
+    [catatan] => ukuran 42, kembali tanggal 9 Juli 2025
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Pria
+                    [quantity] => 1
+                    [harga] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 0
+Berhasil insert ke sewa, sewa_id: 0
+Order_process dipanggil pada 2025-07-08 03:09:23
+Raw JSON Input: {"user_id":"4","durasi":1,"catatan":"Ukuran 42, ambli tanggal 10 JUli 2025","total_harga":25000,"items":[{"nama_barang":"Sepatu Outdoor Pria","quantity":1,"harga":25000,"subtotal":25000}]}
+Decoded Input: Array
+(
+    [user_id] => 4
+    [durasi] => 1
+    [catatan] => Ukuran 42, ambli tanggal 10 JUli 2025
+    [total_harga] => 25000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Sepatu Outdoor Pria
+                    [quantity] => 1
+                    [harga] => 25000
+                    [subtotal] => 25000
+                )
+
+        )
+
+)
+
+User ID from session: 4
+Berhasil insert ke sewa, sewa_id: 51
+Order_process dipanggil pada 2025-07-08 03:13:41
+Raw JSON Input: {"user_id":"4","durasi":1,"catatan":"Jaket ukuran L","total_harga":20000,"items":[{"nama_barang":"Jaket Gorpcore","quantity":1,"harga":20000,"subtotal":20000}]}
+Decoded Input: Array
+(
+    [user_id] => 4
+    [durasi] => 1
+    [catatan] => Jaket ukuran L
+    [total_harga] => 20000
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [nama_barang] => Jaket Gorpcore
+                    [quantity] => 1
+                    [harga] => 20000
+                    [subtotal] => 20000
+                )
+
+        )
+
+)
+
+User ID from session: 4
+Berhasil insert ke sewa, sewa_id: 52

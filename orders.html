@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pesanan Saya</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: linear-gradient(135deg, #e3f2fd, #ffffff);
+        padding: 30px;
+        color: #333;
+      }
+
+      h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        color: #1976d2;
+        font-size: 2rem;
+      }
+
+      .order {
+        background-color: #ffffff;
+        border-left: 6px solid #1976d2;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px 25px;
+        margin-bottom: 25px;
+        transition: transform 0.2s ease;
+      }
+
+      .order:hover {
+        transform: scale(1.01);
+      }
+
+      .order-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #0d47a1;
+      }
+
+      .order-info {
+        margin-bottom: 8px;
+        color: #333;
+      }
+
+      .items {
+        margin-top: 10px;
+        padding-left: 20px;
+        border-top: 1px dashed #90caf9;
+        padding-top: 10px;
+      }
+
+      .item {
+        margin-bottom: 6px;
+        font-size: 15px;
+        color: #455a64;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background: linear-gradient(90deg, #42a5f5, #1e88e5);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        margin: 30px auto 0;
+        display: block;
+      }
+
+      .btn:hover {
+        background: linear-gradient(90deg, #1e88e5, #1565c0);
+      }
+
+      @media print {
+        .btn,
+        h2 {
+          display: none;
+        }
+
+        body {
+          background: none;
+          padding: 0;
+        }
+
+        .order {
+          box-shadow: none;
+          border: 1px solid #aaa;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>🎉 Daftar Pesanan Anda</h2>
+    <div id="order-container">Memuat pesanan...</div>
+    <button class="btn" onclick="window.print()">🖨️ Cetak PDF</button>
+
+    <script>
+      const userId = localStorage.getItem("rapRentUser");
+
+      if (!userId) {
+        document.getElementById("order-container").innerText =
+          "⚠️ User belum login.";
+      } else {
+        fetch("get_order.php", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ user_id: userId }),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            const container = document.getElementById("order-container");
+            container.innerHTML = "";
+
+            if (data.success && data.orders.length > 0) {
+              data.orders.forEach((order) => {
+                const div = document.createElement("div");
+                div.className = "order";
+
+                div.innerHTML = `
+              <div class="order-title">📝 Pesanan #${order.id}</div>
+              <div class="order-info"><strong>📅 Durasi:</strong> ${
+                order.durasi
+              } hari</div>
+              <div class="order-info"><strong>💰 Total Harga:</strong> Rp${Number(
+                order.total_harga
+              ).toLocaleString()}</div>
+              <div class="order-info"><strong>🗒️ Catatan:</strong> ${
+                order.catatan || "-"
+              }</div>
+              <div class="items">
+                <strong>📦 Daftar Barang:</strong>
+                ${order.items
+                  .map(
+                    (item) => `
+                  <div class="item">🔹 ${item.nama_barang} | Qty: ${
+                      item.quantity
+                    } | Subtotal: Rp${Number(
+                      item.subtotal
+                    ).toLocaleString()}</div>
+                `
+                  )
+                  .join("")}
+              </div>
+            `;
+                container.appendChild(div);
+              });
+            } else {
+              container.innerHTML =
+                '<p style="text-align:center;">❌ Belum ada pesanan.</p>';
+            }
+          })
+          .catch((err) => {
+            document.getElementById("order-container").innerText =
+              "⚠️ Gagal mengambil data.";
+            console.error(err);
+          });
+      }
+    </script>
+  </body>
+</html>

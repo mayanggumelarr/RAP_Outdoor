@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>R.A.P RENT - Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <div class="logo">
+          <img src="gambar/logo rap.png" alt="R.A.P RENT Logo" />
+          <span>R.A.P RENT</span>
+        </div>
+
+        <div class="menu-toggle">
+          <button class="hamburger" id="hamburgerBtn">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <nav id="mainNav">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="katalog.html">Katalog</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="tips.html">Tips</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <button class="login-button"><i class="fas fa-user"></i> Login</button> -->
+      </div>
+    </header>
+    <main class="page-main login-page">
+      <div class="login-container">
+        <h2>Daftar Akun Baru</h2>
+        <form action="register.php" method="POST" class="login-form">
+          <div class="form-group">
+            <label for="name"><i class="fas fa-user"></i> Nama Lengkap</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="username"
+              ><i class="fas fa-user-tag"></i> Username</label
+            >
+            <input type="text" name="username" id="username" required />
+          </div>
+          <div class="form-group">
+            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password"><i class="fas fa-lock"></i> Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <div class="form-group">
+            <label for="confirm_password"
+              ><i class="fas fa-lock"></i> Konfirmasi Password</label
+            >
+            <input
+              type="password"
+              name="confirm_password"
+              id="confirm_password"
+              required
+            />
+          </div>
+          <button type="submit" class="submit-button">Daftar</button>
+        </form>
+        <p class="register-link">
+          Sudah punya akun? <a href="login.html">Login di sini</a>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <div class="contact-info">
+          <p>
+            <a
+              href="https://g.co/kgs/WmuFkX5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-map-marker-alt"></i> Jl. Melati No.3, Tegalrejo,
+              Jetis, Kec. Sukoharjo, Kabupaten Sukoharjo, Jawa Tengah 57511
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://wa.me//6285642390303"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-phone"></i> 0856-4239-0303
+            </a>
+          </p>
+          <p>
+            <a
+              href="mailto:outdoory.rap@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-envelope"></i> outdoory.rap@gmail.com
+            </a>
+          </p>
+        </div>
+        <div class="quick-link">
+          <h3>Quick Link</h3>
+          <ul>
+            <li><a href="index.html">>> Home</a></li>
+            <li><a href="katalog.html">>> Katalog</a></li>
+            <li><a href="events.html">>> Events</a></li>
+            <li><a href="tips.html">>> Tips</a></li>
+            <li><a href="about-us.html">>> About Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; Copyright 2025 R.A.P OUTDOOR All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

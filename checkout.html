@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R.A.P RENT - Checkout & Order</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <div class="logo">
+          <img src="gambar/logo rap.png" alt="R.A.P RENT Logo" />
+          <span>R.A.P RENT</span>
+        </div>
+
+        <div class="menu-toggle">
+          <button class="hamburger" id="hamburgerBtn">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <nav id="mainNav">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="katalog.html">Katalog</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="tips.html">Tips</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <button class="login-button" onclick="location.href='login.html'">
+          <i class="fas fa-user"></i> Login
+        </button>
+      </div>
+    </header>
+
+    <main class="page-main checkout-page">
+      <div class="checkout-container">
+        <div class="checkout-step">
+          <div class="step-header">
+            <span>1</span>
+            <h2>Daftar Barang yang Disewa</h2>
+          </div>
+          <div class="step-content">
+            <div id="cartItems" class="cart-summary">
+              <p class="empty-cart-message">
+                Keranjang Anda kosong. Silakan pilih barang dari
+                <a href="katalog.html">Katalog</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="checkout-step">
+          <div class="step-header">
+            <span>2</span>
+            <h2>Upload Dokumen Identitas</h2>
+          </div>
+          <div class="step-content">
+            <p class="upload-info">
+              Kartu identitas yang dimaksud: Scan KTP dan Scan KK <br /><br />
+              File yang diizinkan: jpg, jpeg, png, pdf (max 5MB). Jika file
+              lebih dari satu, silakan jadikan satu dengan format Zip atau Rar.
+            </p>
+            <div class="upload-area">
+              <input
+                type="file"
+                id="documentUpload"
+                accept=".jpg,.jpeg,.png,.pdf,.zip,.rar"
+                multiple
+                style="display: none"
+              />
+              <button
+                class="upload-btn"
+                onclick="document.getElementById('documentUpload').click()"
+              >
+                Upload Dokumen
+              </button>
+              <span id="fileNameDisplay" class="file-name-display"
+                >Belum ada file yang dipilih.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="checkout-step">
+          <div class="step-header">
+            <span>3</span>
+            <h2>Checkout & Order</h2>
+          </div>
+          <div class="step-content final-summary">
+            <div class="order-summary">
+              <h3>Ringkasan Pesanan</h3>
+              <table>
+                <tbody id="finalOrderSummary"></tbody>
+                <tfoot>
+                  <tr>
+                    <td>Total Harga Sewa:</td>
+                    <td id="totalPrice">Rp. 0</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+
+            <div class="form-group">
+              <label for="rentalDuration">Durasi Sewa (hari):</label>
+              <input type="number" id="rentalDuration" min="1" value="1" />
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Catatan Tambahan (Opsional):</label>
+              <textarea
+                id="notes"
+                rows="3"
+                placeholder="Contoh: Ukuran sepatu 42, jaket ukuran L, tanggal sewa 20/07/2025 - 22/07/2025"
+              ></textarea>
+            </div>
+
+            <div class="agreement-checkbox">
+              <input type="checkbox" id="agreeTerms" />
+              <label for="agreeTerms"
+                >Saya setuju dengan
+                <a href="#" target="_blank">Syarat & Ketentuan Sewa</a></label
+              >
+            </div>
+
+            <button id="orderButton" class="submit-button" disabled>
+              Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <div class="contact-info">
+          <p>
+            <a
+              href="https://g.co/kgs/WmuFkX5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-map-marker-alt"></i> Jl. Melati No.3, Tegalrejo,
+              Jetis, Kec. Sukoharjo, Kabupaten Sukoharjo, Jawa Tengah 57511
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://wa.me//6285642390303"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-phone"></i> 0856-4239-0303
+            </a>
+          </p>
+          <p>
+            <a
+              href="mailto:outdoory.rap@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-envelope"></i> outdoory.rap@gmail.com
+            </a>
+          </p>
+        </div>
+        <div class="quick-link">
+          <h3>Quick Link</h3>
+          <ul>
+            <li><a href="index.html">>> Home</a></li>
+            <li><a href="katalog.html">>> Katalog</a></li>
+            <li><a href="events.html">>> Events</a></li>
+            <li><a href="tips.html">>> Tips</a></li>
+            <li><a href="about-us.html">>> About Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; Copyright 2025 R.A.P OUTDOOR All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
